@@ -2,10 +2,10 @@ body {
   background-color: #e5e5e5;
   font-family: "Roboto";
   color: #212121;
-  max-width: 1200px;
+  max-width: 1500px;
 }
 .header {
-  width: 1200px;
+  width: 1500px;
   height: 80px;
   font: "Roboto";
   font-weight: 500px;
@@ -58,7 +58,7 @@ body {
 }
 .head {
   background-color: #2f303a;
-  width: 1200px;
+  width: 1500px;
   height: 400px;
 }
 .page__tittle {
