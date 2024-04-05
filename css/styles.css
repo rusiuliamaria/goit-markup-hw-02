@@ -2,9 +2,10 @@ body {
   background-color: #e5e5e5;
   font-family: "Roboto";
   color: #212121;
+  max-width: 1200px;
 }
 .header {
-  width: 1400px;
+  width: 1200px;
   height: 80px;
   font: "Roboto";
   font-weight: 500px;
@@ -57,8 +58,8 @@ body {
 }
 .head {
   background-color: #2f303a;
-  width: 1400px;
-  height: 600px;
+  width: 1200px;
+  height: 400px;
 }
 .page__tittle {
   font-family: Roboto;
