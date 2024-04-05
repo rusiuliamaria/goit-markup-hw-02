@@ -1,10 +1,71 @@
-
 body {
-    background-color: #E5E5E5;
-font-family: --primary-font :'Roboto' ;
-             --secondary-font: 'Raleway';
+  background-color: #e5e5e5;
+  font-family: "Roboto";
+  color: #212121;
 }
 .header {
+  width: 1600px;
+  height: 80px;
+  font: "Roboto";
+  font-weight: 500px;
+  font-size: 14px;
+  list-style: 17px;
+  border: 1px;
+  background-color: #ffffff;
+}
+.menu {
+  margin-top: 32px;
+  height: 16px;
+  left: 653px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+  color: #212121;
+  text-decoration: none;
+}
+.menu :hover  {
+  color: #2196f3;ve
 }
 .logo {
+  width: 145px;
+  height: 35px;
+  margin-top: 24px;
+  margin-left: 215px;
+  color: #212121;
+  font-weight: 900px;
+  text-decoration: none;
+}
+.web {
+  font-family: Raleway;
+  font-size: 30px;
+  font-weight: 900px;
+  line-height: 32px;
+  text-align: left;
+  color: #2196f3;
+}
+.contacts {
+  font-family: Roboto;
+  margin-top: 32px;
+  margin-left: 100px;
+  color: #757575;
+  text-decoration: none;
+}
+.contacts :hover {
+  color: #2196f3;
+}
+.head {
+  background-color: #2f303a;
+  width: 1600px;
+  height: 600px;
+}
+.page__tittle {
+  font-family: Roboto;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 60px;
+  text-align: center;
+  margin-top: 0px;
+  color: #ffffff;
 }
