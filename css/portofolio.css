@@ -3,16 +3,17 @@
   font-family: "Roboto";
   color: #212121;
 }
+/* Header section */
 .header {
   width: 1600px;
   height: 80px;
-  font: "Roboto";
   font-weight: 500px;
   font-size: 14px;
   list-style: 17px;
   border: 1px;
   background-color: #ffffff;
 }
+/* Header menu  */
 .menu {
   margin-top: 32px;
   height: 16px;
@@ -20,7 +21,7 @@
   font-family: Roboto;
   font-size: 16px;
   font-weight: 500;
-  line-height: 16px;
+  line-height: 1;
   text-align: left;
   color: #212121;
   text-decoration: none;
@@ -28,6 +29,7 @@
 .menu :hover {
   color: #2196f3;
 }
+/* Logo section */
 .logo {
   font-size: 26px;
   width: 145px;
@@ -40,18 +42,19 @@
 }
 
 .studio {
-  font-family: Raleway;
+  font-family: "Raleway";
   font-weight: 700;
-  line-height: 30px;
+  line-height: 1.5;
   color: #212121;
 }
+/* Header contacts adress section */
 .contacts {
-  font-family: Roboto;
   margin-top: 32px;
   margin-left: 100px;
   color: #757575;
   text-decoration: none;
 }
+/*  Buttons list section */
 .list-portofolio {
   list-style: none;
 }
@@ -72,13 +75,37 @@
   background-color: #2196f3;
   color: #ffffff;
 }
-
+/* Cards with fotos und infos  */
 .cards {
-  background-color: #f5f4fa;
+  background-color: #ffffff;
   padding-top: 30px;
   padding-bottom: 100px;
+  margin-left: 215px;
+  margin-right: 225px;
+}
+.cards-instruments {
+  border: 1px solid #eeeeee;
+  background-color: #ffffff;
+  margin-top: 30px;
+}
+.cards-title {
+  margin-left: 20px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+  text-align: left;
+  color: #212121;
+}
+.cards-info {
+  margin-left: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.8;
+  text-align: left;
+  color: #757575;
 }
 
+/* Footer section */
 .footer {
   padding-top: 100px;
   width: 1600px;
@@ -95,6 +122,7 @@
   padding-left: 110px;
   list-style: none;
 }
+/* Stilizarea cubantului "studio" din logo pe fundal dark */
 .studio-footer {
   color: #ffffff;
 }
@@ -103,6 +131,5 @@
   padding-left: 100px;
   width: 207px;
   height: 16px;
-  top: 2216px;
   left: 215px;
 }
