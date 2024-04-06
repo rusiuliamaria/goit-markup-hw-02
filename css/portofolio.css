@@ -1,0 +1,108 @@
+.body {
+  background-color: #ffffff;
+  font-family: "Roboto";
+  color: #212121;
+}
+.header {
+  width: 1600px;
+  height: 80px;
+  font: "Roboto";
+  font-weight: 500px;
+  font-size: 14px;
+  list-style: 17px;
+  border: 1px;
+  background-color: #ffffff;
+}
+.menu {
+  margin-top: 32px;
+  height: 16px;
+  left: 653px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+  color: #212121;
+  text-decoration: none;
+}
+.menu :hover {
+  color: #2196f3;
+}
+.logo {
+  font-size: 26px;
+  width: 145px;
+  height: 35px;
+  margin-top: 24px;
+  margin-left: 215px;
+  color: #2196f3;
+  font-weight: 900px;
+  text-decoration: none;
+}
+
+.studio {
+  font-family: Raleway;
+  font-weight: 700;
+  line-height: 30px;
+  color: #212121;
+}
+.contacts {
+  font-family: Roboto;
+  margin-top: 32px;
+  margin-left: 100px;
+  color: #757575;
+  text-decoration: none;
+}
+.list-portofolio {
+  list-style: none;
+}
+.buttons-section {
+  height: 40px;
+  width: 520px;
+  padding-top: 60px;
+  padding-left: 580px;
+  padding-bottom: 50px;
+}
+.buttons {
+  text-align: center;
+  font-size: 18px;
+  cursor: pointer;
+  font-weight: 600;
+}
+.list-portofolio :hover {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+.cards {
+  background-color: #f5f4fa;
+  padding-top: 30px;
+  padding-bottom: 100px;
+}
+
+.footer {
+  padding-top: 100px;
+  width: 1600px;
+  height: 251px;
+  top: 2097px;
+  background-color: #2f303a;
+  color: #ffffff;
+}
+.adress {
+  width: 231px;
+  height: 72px;
+  top: 2216px;
+  left: 215px;
+  padding-left: 110px;
+  list-style: none;
+}
+.studio-footer {
+  color: #ffffff;
+}
+.adress-line {
+  padding-top: 20px;
+  padding-left: 100px;
+  width: 207px;
+  height: 16px;
+  top: 2216px;
+  left: 215px;
+}

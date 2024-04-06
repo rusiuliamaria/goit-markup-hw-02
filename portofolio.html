@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portofolio</title>
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/portofolio.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -20,8 +20,9 @@
 </head>
 
 <body>
+    <!--Header section-->
     <header class="header">
-        <section>
+        <section class="menu">
             <div style=" display: flex; gap: 70px">
                 <a class="logo" href="index.html">
                     <b>Web<span class="studio">Studio</span></b>
@@ -43,14 +44,14 @@
     </header>
     <main>
         <!--buttons section-->
-        <section>
-            <div class="buttons">
-                <ul class="list">
-                    <li><button type="button">All</button> </li>
-                    <li><button type="button">Web-sites</button></li>
-                    <li><button type="button">Apps</button></li>
-                    <li><button type="button">Design</button></li>
-                    <li><button type="button">Marketing</button></li>
+        <section class="buttons-section">
+            <div>
+                <ul class="list-portofolio" style="display: flex; gap: 5px">
+                    <li> <button class="buttons" type="button">All</button> </li>
+                    <li><button class="buttons" type="button">Web-sites</button></li>
+                    <li><button class="buttons" type="button">Apps</button></li>
+                    <li><button class="buttons" type="button">Design</button></li>
+                    <li><button class="buttons" type="button">Marketing</button></li>
 
                 </ul>
             </div>
@@ -118,15 +119,15 @@
     <footer class="footer">
         <div>
             <a class="logo" href="index.html">
-                <b>Web<span class="studio">Studio</span></b>
+                <b>Web<span class="studio-footer">Studio</span></b>
             </a>
         </div>
         <div>
             <!--Adress container in footer-->
-            <address class=" adress">
-                <ul>
+            <address>
+                <ul class=" adress">
                     <li>
-                        <p>695 Park Ave, NY 10065, USA</p>
+                        <p class="adress-line">695 Park Ave, NY 10065, USA</p>
                     </li>
                     <li>
                         <a class="contacts" href="mailto:info@devstudio.com"> info@devstudio.com </a>

@@ -90,6 +90,9 @@ body {
 .buttons__request :hover {
   border-color: #2196f3;
 }
+.about-section {
+  margin-bottom: 100px;
+}
 .skills {
   margin-top: 80px;
   padding-left: 150px;
@@ -128,7 +131,8 @@ body {
 }
 .team {
   background-color: #f5f4fa;
-  padding-top: 80px;
+  padding-top: 30px;
+  padding-bottom: 100px;
 }
 .our-team {
   font-family: Roboto;
@@ -137,12 +141,45 @@ body {
   line-height: 42px;
   color: #212121;
   text-align: center;
-  margin-top: 80px;
+  margin-top: 60px;
 }
 .team-members {
+  border-radius: 5px;
+  background-color: #ffffff;
   width: 270px;
   height: 368px;
   top: 1635px;
   left: 215px;
-  margin-top: 80px;
+  margin-top: 60px;
+}
+.team-info {
+  text-align: center;
+}
+.footer {
+  padding-top: 100px;
+
+  width: 1600px;
+  height: 251px;
+  top: 2097px;
+  background-color: #2f303a;
+  color: #ffffff;
+}
+.adress {
+  width: 231px;
+  height: 72px;
+  top: 2216px;
+  left: 215px;
+  padding-left: 110px;
+  list-style: none;
+}
+.studio-footer {
+  color: #ffffff;
+}
+.adress-line {
+  padding-top: 20px;
+  padding-left: 100px;
+  width: 207px;
+  height: 16px;
+  top: 2216px;
+  left: 215px;
 }

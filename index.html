@@ -23,7 +23,7 @@
 <body>
   <!--Header section-->
   <header class="header">
-    <section>
+    <section class="menu">
       <div style=" display: flex; gap: 70px">
         <a class="logo" href="index.html">
           <b>Web<span class="studio">Studio</span></b>
@@ -56,7 +56,7 @@
 
     </section>
     <!--Skills section-->
-    <section>
+    <section class="about-section">
       <div class="skills" style="display: flex; gap: 40px">
         <div>
           <h5 class="skills-tittle">ATTENTION TO DETAILS</h5>
@@ -91,39 +91,41 @@
           </p>
         </div>
       </div>
-    </section>
-    <!--Container2 : What we do section-->
-    <section>
-      <h2 class="work">What we do</h2>
-      <div class="our-work" style="display: flex; gap: 30px">
-        <img src="./images/img-1.jpg" alt="We solve server problems" width="370" height="290" />
-        <img src="./images/img-2.jpg" alt="We develope applications" width="370" height="290" />
-        <img src="./images/img-3.jpg" alt="We make the website graphics" width="370" height="290" />
+
+      <!--Container2 : What we do section-->
+      <div>
+        <h2 class="work">What we do</h2>
+        <div class="our-work" style=" display: flex; gap :50px">
+          <img src="./images/img-1.jpg" alt="We solve server problems" width="370" height="290" />
+          <img src="./images/img-2.jpg" alt="We develope applications" width="370" height="290" />
+          <img src="./images/img-3.jpg" alt="We make the website graphics" width="370" height="290" />
+        </div>
       </div>
     </section>
+
     <!--Container3 : Our team section-->
     <section class="team">
       <h2 class="our-team">Our Team</h2>
-      <div class="team-members" style=" display: flex; gap: 100px">
-        <div>
+      <div style=" display: flex; gap: 100px">
+        <div class="team-members">
           <img src="./images/img-4.jpg" alt="Christopher Walker" width="270" height="260" />
-          <p>Christopher Walker</p>
-          <p>Product Designer</p>
+          <p class="team-info">Christopher Walker</p>
+          <p class="team-info">Product Designer</p>
         </div>
-        <div>
+        <div class="team-members">
           <img src="./images/img-5.jpg" alt="Kylie Evans" width="270" height="260" />
-          <p>Kylie Evans</p>
-          <p>Frontend Developer</p>
+          <p class="team-info">Kylie Evans</p>
+          <p class="team-info">Frontend Developer</p>
         </div>
-        <div>
+        <div class="team-members">
           <img src="./images/img-6.jpg" alt="Ryan Harris" width="270" height="260" />
-          <p>Ryan Harris</p>
-          <p>Marketing</p>
+          <p class="team-info">Ryan Harris</p>
+          <p class="team-info">Marketing</p>
         </div>
-        <div>
+        <div class="team-members">
           <img src="./images/img-7.jpg" alt="Tyler Moore" width="270" height="260" />
-          <p>Tyler Moore</p>
-          <p>UI Designer</p>
+          <p class="team-info">Tyler Moore</p>
+          <p class="team-info">UI Designer</p>
         </div>
       </div>
     </section>
@@ -132,15 +134,15 @@
   <footer class="footer">
     <div>
       <a class="logo" href="index.html">
-        <b>Web<span class="studio">Studio</span></b>
+        <b>Web<span class="studio-footer">Studio</span></b>
       </a>
     </div>
     <div>
       <!--Adress container in footer-->
-      <address class="adress">
-        <ul>
+      <address>
+        <ul class="adress">
           <li>
-            <p>695 Park Ave, NY 10065, USA</p>
+            <p class="adress-line">695 Park Ave, NY 10065, USA</p>
           </li>
           <li>
             <a class="contacts" href="mailto:info@devstudio.com"> info@devstudio.com </a>
