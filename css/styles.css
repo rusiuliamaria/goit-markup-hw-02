@@ -1,10 +1,10 @@
 body {
-  background-color: #e5e5e5;
+  background-color: #ffffff;
   font-family: "Roboto";
   color: #212121;
 }
 .header {
-  width: 1500px;
+  width: 1600px;
   height: 80px;
   font: "Roboto";
   font-weight: 500px;
@@ -55,8 +55,9 @@ body {
 
 .head {
   background-color: #2f303a;
-  width: 1500px;
+  width: 1600px;
   height: 600px;
+  color: #ffffff;
 }
 .page__tittle {
   font-family: Roboto;
@@ -65,7 +66,83 @@ body {
   line-height: 60px;
   text-align: center;
   margin-top: 0px;
-  color: #ffffff;
 
   padding-top: 200px;
+}
+
+.buttons__request {
+  color: #ffffff;
+  background-color: #00000026;
+  border-style: solid;
+  border-width: 0px;
+  border-top: 430px;
+  border-radius: 4px;
+  border-color: #2196f3;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 30px;
+  padding-left: 680px;
+  text-align: center;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.buttons__request :hover {
+  border-color: #2196f3;
+}
+.skills {
+  margin-top: 80px;
+  padding-left: 150px;
+}
+.skills-info {
+  color: #757575;
+  font-weight: 400px;
+}
+.skills-tittle {
+  width: 270px;
+  height: 16px;
+  top: 774px;
+  left: 215px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  text-align: left;
+  color: #212121;
+}
+.work {
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  text-align: center;
+  margin-top: 80px;
+  background-color: #ffffff;
+}
+.our-work {
+  top: 1061px;
+  left: 215px;
+  margin-top: 80px;
+  padding-left: 150px;
+  background-color: #ffffff;
+}
+.team {
+  background-color: #f5f4fa;
+  padding-top: 80px;
+}
+.our-team {
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  color: #212121;
+  text-align: center;
+  margin-top: 80px;
+}
+.team-members {
+  width: 270px;
+  height: 368px;
+  top: 1635px;
+  left: 215px;
+  margin-top: 80px;
 }
