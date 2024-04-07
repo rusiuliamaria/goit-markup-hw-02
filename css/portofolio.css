@@ -1,7 +1,13 @@
+:root {
+  --white: #ffffff;
+  --light-blue: #2196f3;
+  --font-primary: "Roboto", sans-serif;
+  --black: #212121;
+}
 .body {
-  background-color: #ffffff;
-  font-family: "Roboto";
-  color: #212121;
+  background-color: var(--white);
+  font-family: var(--font-primary);
+  color: var(--black);
 }
 /* Header section */
 .header {
@@ -11,23 +17,23 @@
   font-size: 14px;
   list-style: 17px;
   border: 1px;
-  background-color: #ffffff;
+  background-color: var(--white);
 }
 /* Header menu  */
 .menu {
   margin-top: 32px;
   height: 16px;
   left: 653px;
-  font-family: Roboto;
+  font-family: var(--font-primary);
   font-size: 16px;
   font-weight: 500;
   line-height: 1;
   text-align: left;
-  color: #212121;
+  color: var(--black);
   text-decoration: none;
 }
 .menu :hover {
-  color: #2196f3;
+  color: var(--light-blue);
 }
 /* Logo section */
 .logo {
@@ -36,7 +42,7 @@
   height: 35px;
   margin-top: 24px;
   margin-left: 215px;
-  color: #2196f3;
+  color: var(--light-blue);
   font-weight: 900px;
   text-decoration: none;
 }
@@ -45,7 +51,7 @@
   font-family: "Raleway";
   font-weight: 700;
   line-height: 1.5;
-  color: #212121;
+  color: var(--black);
 }
 /* Header contacts adress section */
 .contacts {
@@ -72,12 +78,12 @@
   font-weight: 600;
 }
 .list-portofolio :hover {
-  background-color: #2196f3;
-  color: #ffffff;
+  background-color: var(--light-blue);
+  color: var(--white);
 }
 /* Cards with fotos und infos  */
 .cards {
-  background-color: #ffffff;
+  background-color: var(--white);
   padding-top: 30px;
   padding-bottom: 100px;
   margin-left: 215px;
@@ -85,7 +91,7 @@
 }
 .cards-instruments {
   border: 1px solid #eeeeee;
-  background-color: #ffffff;
+  background-color: var(--white);
   margin-top: 30px;
 }
 .cards-title {
@@ -94,7 +100,7 @@
   font-weight: 700;
   line-height: 2;
   text-align: left;
-  color: #212121;
+  color: var(--black);
 }
 .cards-info {
   margin-left: 20px;
@@ -112,7 +118,7 @@
   height: 251px;
   top: 2097px;
   background-color: #2f303a;
-  color: #ffffff;
+  color: var(--white);
 }
 .adress {
   width: 231px;
@@ -124,7 +130,7 @@
 }
 /* Stilizarea cubantului "studio" din logo pe fundal dark */
 .studio-footer {
-  color: #ffffff;
+  color: var(--white);
 }
 .adress-line {
   padding-top: 20px;
@@ -132,4 +138,7 @@
   width: 207px;
   height: 16px;
   left: 215px;
+}
+.adress-line :hover {
+  color: var(--light-blue);
 }

@@ -1,18 +1,24 @@
-body {
-  background-color: #ffffff;
-  font-family: "Roboto";
+:root {
+  --white: #ffffff;
+  --light-blue: #2196f3;
+  --font-primary: "Roboto", sans-serif;
+  --light-black: #2f303a;
+}
+.body {
+  background-color: var(--white);
+  font-family: var(--font-primary);
   color: #212121;
 }
 /* Header section  */
 .header {
   width: 1600px;
   height: 80px;
-  font: "Roboto";
+  font-family: var(--font-primary)
   font-weight: 500px;
   font-size: 14px;
   list-style: 17px;
   border: 1px;
-  background-color: #ffffff;
+  background-color: var(--white);
 }
 /* Header menu section  */
 .menu {
@@ -28,7 +34,7 @@ body {
   text-decoration: none;
 }
 .menu :hover {
-  color: #2196f3;
+  color: var(--light-blue);
 }
 /* Header logo section  */
 .logo {
@@ -37,7 +43,7 @@ body {
   height: 35px;
   margin-top: 24px;
   margin-left: 215px;
-  color: #2196f3;
+  color: var(--light-blue);
   font-weight: 900px;
   text-decoration: none;
 }
@@ -57,10 +63,10 @@ body {
 }
 /* Head section  */
 .head {
-  background-color: #2f303a;
+  background-color: var(--light-black);
   width: 1600px;
   height: 600px;
-  color: #ffffff;
+  color:var(--white);
 }
 /* Head page tittle section  */
 .page__tittle {
@@ -73,7 +79,7 @@ body {
 }
 /* Head button section  */
 .buttons__request {
-  color: #ffffff;
+  color: var(--white);
   background-color: #00000026;
   margin-left: 650px;
   border-top: 430px;
@@ -89,7 +95,7 @@ body {
   cursor: pointer;
 }
 .head :focus {
-  background-color: #2196f3;
+  background-color: var(--light-blue);
 }
 /* About section  */
 .about-section {
@@ -109,7 +115,6 @@ body {
   height: 16px;
   top: 774px;
   left: 215px;
-  font-family: Roboto;
   font-size: 14px;
   font-weight: 700;
   line-height: 1.2;
@@ -118,19 +123,19 @@ body {
 }
 /* Work section  */
 .work {
-    font-size: 36px;
+  font-size: 36px;
   font-weight: 700;
   line-height: 0.85;
   text-align: center;
   margin-top: 80px;
-  background-color: #ffffff;
+  background-color: var(--white);
 }
 .our-work {
   top: 1061px;
   left: 215px;
   margin-top: 80px;
   padding-left: 150px;
-  background-color: #ffffff;
+  background-color: var(--white);
 }
 /* Team info section  */
 .team {
@@ -149,7 +154,7 @@ body {
 /* Cards with team members section  */
 .team-members {
   border-radius: 5px;
-  background-color: #ffffff;
+  background-color:var(--white);
   width: 270px;
   height: 368px;
   top: 1635px;
@@ -166,8 +171,8 @@ body {
   width: 1600px;
   height: 251px;
   top: 2097px;
-  background-color: #2f303a;
-  color: #ffffff;
+  background-color: var(--light-black);
+  color: var(--white);
 }
 /* Footer contacts adress section  */
 .adress {
@@ -180,7 +185,7 @@ body {
 }
 /* Stilizarea substantivului "studio" in background darkness */
 .studio-footer {
-  color: #ffffff;
+  color:var(--white);
 }
 .adress-line {
   padding-top: 20px;
@@ -189,4 +194,8 @@ body {
   height: 16px;
   top: 2216px;
   left: 215px;
+}
+.footer :focus {
+  color: var(--light-blue);
+  
 }
