@@ -8,7 +8,7 @@
 .body {
   background-color: var(--white);
   font-family: var(--font-primary);
-  color: #212121;
+  color: var(--black);
 }
 /* Header section  */
 .header {
@@ -31,7 +31,7 @@
   font-weight: 500;
   line-height: 1;
   text-align: left;
-  color: #212121;
+  color: var(--black);
   text-decoration: none;
 }
 .menu :hover {
@@ -53,7 +53,7 @@
   font-family: "Raleway";
   font-weight: 700;
   line-height: 1.5;
-  color: #212121;
+  color: var(--black);
 }
 /* Header contacts adress section  */
 .contacts {
@@ -120,7 +120,7 @@
   font-weight: 700;
   line-height: 1.2;
   text-align: left;
-  color: #212121;
+  color: var(--black);
 }
 /* Work section  */
 .work {
@@ -148,7 +148,7 @@
   font-size: 36px;
   font-weight: 700;
   line-height: 0.85;
-  color: #212121;
+  color: var(--black);
   text-align: center;
   margin-top: 60px;
 }
@@ -205,6 +205,11 @@
   font-family: var(--font-primary);
   color: var(--black);
 }
+
+
+
+/* Portofolio Page styling */
+
 /* Header section */
 .header {
   width: 1600px;
