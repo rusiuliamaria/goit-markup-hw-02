@@ -3,7 +3,7 @@
   --light-blue: #2196f3;
   --font-primary: "Roboto", sans-serif;
   --light-black: #2f303a;
-   --black: #212121;
+  --black: #212121;
 }
 .body {
   background-color: var(--white);
@@ -14,10 +14,10 @@
 .header {
   width: 1600px;
   height: 80px;
-  font-family: var(--font-primary)
-  font-weight: 500px;
+  font-family: var(--font-primary);
+  font-weight: 500;
   font-size: 14px;
-  list-style: 17px;
+  list-style: 17;
   border: 1px;
   background-color: var(--white);
 }
@@ -45,7 +45,7 @@
   margin-top: 24px;
   margin-left: 215px;
   color: var(--light-blue);
-  font-weight: 900px;
+  font-weight: 900;
   text-decoration: none;
 }
 
@@ -67,7 +67,7 @@
   background-color: var(--light-black);
   width: 1600px;
   height: 600px;
-  color:var(--white);
+  color: var(--white);
 }
 /* Head page tittle section  */
 .page__tittle {
@@ -109,7 +109,7 @@
 }
 .skills-info {
   color: #757575;
-  font-weight: 400px;
+  font-weight: 400;
 }
 .skills-tittle {
   width: 270px;
@@ -155,7 +155,7 @@
 /* Cards with team members section  */
 .team-members {
   border-radius: 5px;
-  background-color:var(--white);
+  background-color: var(--white);
   width: 270px;
   height: 368px;
   top: 1635px;
@@ -186,7 +186,7 @@
 }
 /* Stilizarea substantivului "studio" in background darkness */
 .studio-footer {
-  color:var(--white);
+  color: var(--white);
 }
 .adress-line {
   padding-top: 20px;
@@ -198,7 +198,6 @@
 }
 .footer :focus {
   color: var(--light-blue);
-  
 }
 .body {
   background-color: var(--white);
@@ -206,17 +205,15 @@
   color: var(--black);
 }
 
-
-
 /* Portofolio Page styling */
 
 /* Header section */
 .header {
   width: 1600px;
   height: 80px;
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 14px;
-  list-style: 17px;
+  list-style: 17;
   border: 1px;
   background-color: var(--white);
 }
@@ -244,7 +241,7 @@
   margin-top: 24px;
   margin-left: 215px;
   color: var(--light-blue);
-  font-weight: 900px;
+  font-weight: 900;
   text-decoration: none;
 }
 
@@ -342,3 +339,4 @@
 }
 .adress-line :hover {
   color: var(--light-blue);
+}
